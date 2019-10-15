@@ -1,0 +1,12 @@
+@mixin baseMargin(){
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.postbox {
+  @include baseMargin;
+}
+
+.displaybox {
+  @include baseMargin;
+}
